@@ -14,11 +14,11 @@ body {
     justify-content: center;
     align-items: center;
     height: 90vh;
+    text-align: center;
     background-color: hotpink;
 }
 
 h1 {
-    text-align: center;
     color: black;
     font-size: 100px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
