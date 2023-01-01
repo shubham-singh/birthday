@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const example = `${url.origin}${url.pathname}?name=shubham&date=MM-DD`
         h3.innerText = `
             ${example}
+            
             ${example}&color=pink
         `
         document.body.appendChild(h2)
