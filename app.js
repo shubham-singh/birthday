@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const h2 = document.createElement('h2')
         h2.innerText = 'How to use this website?'
         const h3 = document.createElement('h3')
-        const example = `${url.origin}?name=shubham&date=MM-DD${url.pathname}`
+        const example = `${url.origin}${url.pathname}?name=shubham&date=MM-DD`
         h3.innerText = `
             ${example}
             ${example}&color=pink
