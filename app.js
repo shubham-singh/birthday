@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
         h3.innerText = `
             ${example}
             
+            
             ${example}&color=pink
         `
         document.body.appendChild(h2)
